@@ -456,8 +456,8 @@ img {
 }
 
 .footer-icon-container {
+    align-items: baseline;
     margin-right: 80px;
-    align-items: baseline
 }
 
 .footer-icon-text {
@@ -503,8 +503,10 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    
 }
-.footer-form-wrap {
+
+.footer-form {
     display: flex;
     gap: 24px;
 }
@@ -673,6 +675,9 @@ img {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-field-comment {
+    margin-bottom: 16px;
+}
 
 .modal-text-comment {
     width: 100%;
@@ -736,8 +741,8 @@ img {
 }
 
 .modal-button {
-    min-width: 165px;
-    height: 40px;
+    min-width: 169px;
+    height: 56px;
     display: block;
     margin: 0 auto;
     border: none;
